@@ -41,11 +41,15 @@
 		"commands": [
 			{
 				"command": "webvalidator.startvalidation",
-				"title": "Start Web validation on this file"
+				"title": "Start W3C validation on this file"
 			},
 			{
 				"command": "webvalidator.clearvalidation",
-				"title": "Clear Web validation issues on file"
+				"title": "Clear W3C validation issues on file"
+			},
+			{
+				"command": "webvalidator.startworkspacevalidation",
+				"title": "Start W3C validation on all compatible files"
 			}
 		]
 	},

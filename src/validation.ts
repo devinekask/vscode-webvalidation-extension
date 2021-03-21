@@ -11,7 +11,7 @@ const W3C_API_URL = 'https://validator.w3.org/nu/?out=json';
  * This is the main method of the extension, it make a request to the W3C API and
  * analyse the response.
  */
-export const startValidation = (): void => {
+export const startActiveFileValidation = (): void => {
 
 	const document = vscode.window.activeTextEditor?.document;
 	//Check if file is valid
@@ -64,6 +64,10 @@ export const startValidation = (): void => {
 			}
 		}
 	});
+};
+
+export const startWorspaceValidation = (): void => {
+	console.log('TODO');
 };
 
 /**
